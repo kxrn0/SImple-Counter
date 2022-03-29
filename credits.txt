@@ -1,0 +1,5 @@
+        plus.png: <a href="https://www.flaticon.com/free-icons/plus" title="plus icons">Plus icons created by Freepik - Flaticon</a>
+        minus.png: <a href="https://www.flaticon.com/free-icons/minus" title="minus icons">Minus icons created by Freepik - Flaticon</a>
+        reset.png: <a href="https://www.flaticon.com/free-icons/repeat" title="repeat icons">Repeat icons created by Freepik - Flaticon</a>
+        plus_ultra.png: <a href="https://www.flaticon.com/free-icons/plus" title="plus icons">Plus icons created by Freepik - Flaticon</a>
+        delete.png: <a href="https://www.flaticon.com/free-icons/delete" title="delete icons">Delete icons created by Freepik - Flaticon</a>

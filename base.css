@@ -1,0 +1,124 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: inherit;
+}
+
+body {
+    background: rgb(150, 208, 220);
+}
+
+button {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(213, 232, 250, 0.5);
+    background-size: cover;
+    border: none;
+    border-radius: 5px;
+}
+
+button:active {
+    transform: scale(.975);
+}
+
+.main {
+    position: relative;
+}
+
+.main-section {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: blanchedalmond;
+    border-radius: 10px;
+}
+
+.counters-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.counter {
+    width: 200px;
+    padding: 10px;
+    background: rgb(167, 181, 238);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.counter-name, .counter-input {
+    background: azure;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    text-align: center;
+    max-width: 190px;
+}
+
+.counter-content, .change-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    align-items: center;
+}
+
+.counter-content span {
+    background: rgb(139, 253, 223);
+    padding: 5px;
+    font-size: 1.25rem;
+    border-radius: 5px;
+}
+
+.counter .plus {
+    background-image: url("images/plus.png");
+}
+
+.counter .minus {
+    background-image: url("images/minus.png");
+}
+
+.counter .reset {
+    background-image: url("images/reset.png");
+}
+
+.counter .remove {
+    background-image: url("images/delete.png");
+}
+
+.counter .plus:hover, .counter .minus:hover, .counter .reset:hover, .remove:hover {
+    background-color: rgba(110, 135, 233, 0.5);
+}
+
+.counter .plus:active, .counter .minus:active, .counter .reset:active, .remove:active {
+    background-color: rgba(93, 100, 209, 0.5);
+}
+
+.add-counter-button {
+    background-image: url("images/plus_ultra.png");
+}
+
+.add-counter-button:hover {
+    background-color: rgb(232, 211, 174, .75);
+}
+
+.add-counter-button:active {
+    background-color: rgba(204, 186, 155, 0.65);
+}
+
+@media screen and (max-width: 500px) {
+    .main-section {
+        max-width: 300px;
+    }
+}
